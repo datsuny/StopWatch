@@ -1,0 +1,36 @@
+*{
+    transition: all .3s;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+    font-family: calibri;
+    background: linear-gradient(#8E8E8E, black);
+}
+
+.container{
+    background: #ececec;
+    padding: 15px;
+    border-radius: 30px;
+    margin: 2%;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    display: inline-block;
+     font-size: 60%;
+     padding: 20px;
+}
+
+h3{
+    display: flex;
+}
